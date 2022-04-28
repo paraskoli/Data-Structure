@@ -12,20 +12,18 @@ public class Main {
                if (col==1 || col==n) {
                System.out.print("*\t");
                    
-                  } else { if (row==col || row+col==n+1) {
-                   System.out.print("*\t");
+                  } else if (row==col || row+col==n+1) {
+                      if(row>=n/2+1){
+                      System.out.print("*\t");
                    
-                  } else {
+                    } else {
                    System.out.print("\t");
                    }
                    
                 }else{
-                    System.out.print("\t");
-                 }
-
-               System.out.println();
+                    System.out.print("\t");}
            }
-         
+            System.out.println();
        }
         
     }
