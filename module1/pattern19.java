@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class pattern19{
@@ -29,7 +28,7 @@ public class pattern19{
                      System.out.print("*\t");
 
                      } else if (row >n/2 + 1 && row<n) {
-                       if (col==n/2+1|| col==1) {
+                       if (col==n/2+1 || col==1) {
 
                      System.out.print("*\t");
                          
@@ -40,11 +39,11 @@ public class pattern19{
 
                      
                      } else if (row==n) {
-                       if (col==1 ||(col>=1 && col<= n/2+1)) {
+                       if (col==1 ||(col>=n/2+1 && col<=n)) {
                          System.out.print("*\t");
                          
                        } else {
-                     System.out.print("*\t");
+                     System.out.print("\t");
                          
                        }
           
