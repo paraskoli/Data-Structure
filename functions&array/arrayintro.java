@@ -13,9 +13,19 @@ public class arrayintro {
            System.out.println(arr[2]);
            System.out.println(arr[3]);
            System.out.println(arr[4]);
+           
+           System.out.println("length :"+arr.length);
+           for (int idx=0; idx<=arr.length-1; idx++) {
+               int val =arr[idx];
+               System.out.print(val+" ");
 
-
-
+           }
+           System.out.println();
+          for (int val : arr) {
+              System.out.println(val+" ");
+              
+          }
+            System.out.println();
 
 
         }
